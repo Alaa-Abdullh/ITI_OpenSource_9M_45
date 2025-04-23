@@ -1,0 +1,12 @@
+// exports
+module.exports=displaymsg;
+or multi file use obj
+module.exports={displaymsg:displaymsg,student:student};
+
+//import
+const displaymsg = require("./index1");
+or distruct 
+const {displaymsg,student} = require("./index1");
+
+
+
